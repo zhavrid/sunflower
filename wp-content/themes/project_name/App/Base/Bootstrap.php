@@ -7,7 +7,7 @@ final class Bootstrap {
 	public const MENUS = [
 		'header' => 'header-menu',
 		'footer' => 'footer-menu',
-		'privacy' => 'privacy-menu',
+		'header_right_button' => 'header-right-button',
 	];
 
 	public function __construct() {
@@ -22,7 +22,7 @@ final class Bootstrap {
 			array(
 				self::MENUS['header'] => __( 'Header Menu', TM_TEXTDOMAIN ),
 				self::MENUS['footer'] => __( 'Footer Menu', TM_TEXTDOMAIN ),
-				self::MENUS['privacy'] => __( 'Privacy Menu', TM_TEXTDOMAIN ),
+				self::MENUS['header_right_button'] => __( 'Header right button', TM_TEXTDOMAIN ),
 			)
 		);
 	}
@@ -39,9 +39,9 @@ final class Bootstrap {
 		) );
 	}
 
-	public static function bootstrap_privacy_menu() {
+	public static function bootstrap_header_right_button() {
 		wp_nav_menu( array(
-			'theme_location' => self::MENUS['privacy']
+			'theme_location' => self::MENUS['header_right_button']
 		) );
 	}
     public static function allowUploadSvg($mimes) {

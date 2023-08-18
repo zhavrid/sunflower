@@ -8,6 +8,10 @@ final class Init {
 	 */
 	private static array $blocks = array(
 		General\Hero::class,
+		General\HowItWorks::class,
+		General\AboutUs::class,
+		General\Pricing::class,
+		General\Accreditations::class,
 	);
 
 	public function __construct()

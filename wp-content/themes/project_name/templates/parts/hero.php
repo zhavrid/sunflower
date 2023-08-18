@@ -1,33 +1,53 @@
-<?php
-/**
-* Authors Grid
-*
-* @param array $block The block settings and attributes.
-* @param string $content The block inner HTML (empty).
-* @param bool $is_preview True during AJAX preview.
-* @param int|string $post_id The post ID this block is saved to.
-*/
+<?php 
+$title = get_field('title');
+$title_two = get_field('title_two');
+$description = get_field('description');
+$button_text = get_field('button_text');
+$button_link = get_field('button_link');
+$three_blocks = get_field('three_blocks');
 ?>
-<?php if ( $block['data']['background_image'] ): ?>
-<style>
-    .hero {
-        background-image: url(<?php echo wp_get_attachment_image_url( $block['data']['background_image'], 'full' ); ?>);
-    }
-    @media (max-width: 767px) {
-        .hero {
-            background-image: url(<?php echo wp_get_attachment_image_url( $block['data']['background_mobile_image'], 'full' ); ?>);
-        }
-    }
-</style>
-    <?php endif; ?>
+
 <section class="hero">
-	<?php if ( $block['data']['title'] ): ?>
-        <h1><?php echo $block['data']['title']; ?></h1>
-	<?php endif; ?>
-	<?php if ( $block['data']['description'] ): ?>
-        <p><?php echo $block['data']['description']; ?></p>
-	<?php endif; ?>
-	<?php if ( $block['data']['button_text'] && $block['data']['button_link'] ): ?>
-        <a href="<?php echo $block['data']['button_link'] ?>"><?php echo $block['data']['button_text']; ?></a>
-	<?php endif; ?>
+    <div class="hero_wrap">
+        <div class="container">
+            <div class="hero_left">
+                <?php if($title):  ?>
+                    <h1 class="hero_left_title_left"><?php echo $title?></h1>
+                <?php endif ?>
+                <?php if($title_two):  ?>
+                    <h1 class="hero_left_title_right"><?php echo $title_two?></h1>
+                <?php endif ?>
+                <?php if($description):  ?>
+                    <p class="hero_left_text"><?php echo $description?></p>
+                <?php endif ?>
+                <?php if($button_text):  ?>
+                    <button class="hero_left_sign_up"><?php echo $button_text?>
+                <?php endif ?>
+                <?php if($button_link):  ?>
+                    <?php echo $button_link?>
+                <?php endif ?>
+                </button>
+            </div>
+            <div class="hero_right">
+                <div class="hero_right_bg">
+                    <div class="hero_right_three">
+                    <?php if('three_blocks'):
+                        foreach(get_field('three_blocks') as $rows ) :?>
+                         <div class="hero_right_three_block"><?php
+                            $icon = $rows['icon'];
+                            $title = $rows['title'];?>
+                            <?php if($icon):  ?>
+                                <img src="<?php echo $icon?>">
+                            <?php endif ?>
+                            <?php if($title):  ?>
+                                <p><?php echo $title?></p>
+                            <?php endif ?>
+                        </div><?php
+                        endforeach;
+                    endif;?>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

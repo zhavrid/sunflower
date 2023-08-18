@@ -1,0 +1,327 @@
+footer {
+  background-image: url("http://bootstrap-wp-theme-twomain/wp-content/uploads/2023/07/Footer-Background.png");
+  background-position: center bottom 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.contact {
+  margin-top: 104px;
+}
+@media (max-width: 426px) {
+  .contact {
+    margin-top: 104px;
+  }
+}
+.contact_title {
+  text-align: center;
+}
+@media (max-width: 426px) {
+  .contact_title {
+    text-align: left;
+    margin: 0px 24px;
+  }
+}
+.contact_title_p {
+  font-size: 12px;
+  color: #221817;
+  opacity: 0.56;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+@media (max-width: 426px) {
+  .contact_title_p {
+    text-align: center;
+  }
+}
+.contact_title_content {
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  width: 308px;
+  gap: 12px;
+  display: flex;
+}
+@media (max-width: 426px) {
+  .contact_title_content {
+    width: 232px;
+  }
+}
+.contact_title_content h1 {
+  font-size: 38px;
+  margin-top: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+}
+@media (max-width: 426px) {
+  .contact_title_content h1 {
+    margin-top: 8px;
+    font-size: 28px;
+  }
+}
+.contact_title_questions {
+  padding-top: 16px;
+}
+@media (max-width: 426px) {
+  .contact_title_questions {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+.form {
+  text-align: center;
+}
+.form_display {
+  text-align: center;
+}
+.form_display {
+  margin-top: 56px;
+}
+@media (max-width: 1025px) {
+  .form_display {
+    margin: 40px 24px 0px 24px;
+  }
+}
+@media (max-width: 374px) {
+  .form_display {
+    margin: 40px 0px 0px;
+  }
+}
+.form_display input {
+  color: #A2A2A2;
+  font-size: 16px;
+  width: 391px;
+  padding-left: 24px;
+  height: 56px;
+  align-items: center;
+  border-radius: 0px 16px;
+  border: 1px solid var(--background-dark-3, #A2A2A2);
+}
+@media (max-width: 1025px) {
+  .form_display input {
+    width: 327px;
+  }
+}
+@media (max-width: 330px) {
+  .form_display input {
+    width: 270px;
+  }
+}
+.form_display select {
+  margin-left: 24px;
+  font-size: 16px;
+  color: #A2A2A2;
+  padding-left: 24px;
+  width: 391px;
+  height: 56px;
+  border-radius: 0px 16px;
+  border: 1px solid var(--background-dark-3, #A2A2A2);
+}
+@media (max-width: 1025px) {
+  .form_display select {
+    margin-left: 0px;
+    width: 327px;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 330px) {
+  .form_display select {
+    width: 270px;
+  }
+}
+.form_display select:after {
+  margin-left: 24px;
+  font-size: 16px;
+  padding-left: 24px;
+  width: 391px;
+  height: 56px;
+  border-radius: 0px 16px;
+  border: 1px solid var(--background-dark-3, #FCCF2A);
+}
+.form_display_email {
+  margin-top: 24px;
+  color: #A2A2A2;
+  font-size: 16px;
+  width: 806px;
+  padding-left: 24px;
+  height: 56px;
+  align-items: center;
+  border-radius: 0px 16px;
+  border: 1px solid var(--background-dark-3, #A2A2A2);
+}
+@media (max-width: 1025px) {
+  .form_display_email {
+    max-width: 660px;
+  }
+}
+@media (max-width: 706px) {
+  .form_display_email {
+    width: 327px;
+  }
+}
+@media (max-width: 330px) {
+  .form_display_email {
+    width: 270px;
+    margin: 24px 24px 0;
+  }
+}
+.form_display_textarea {
+  padding-top: 16px;
+  padding-left: 24px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  color: #A2A2A2;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+  width: 806px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0px 16px;
+  border: 1px solid var(--background-dark-3, #A2A2A2);
+}
+@media (max-width: 1025px) {
+  .form_display_textarea {
+    max-width: 660px;
+  }
+}
+@media (max-width: 706px) {
+  .form_display_textarea {
+    width: 327px;
+  }
+}
+@media (max-width: 320px) {
+  .form_display_textarea {
+    width: 267px;
+    margin: 24px 24px 0;
+  }
+}
+.form_display_check {
+  display: flex;
+  width: 801px;
+  margin: 24px auto 0;
+}
+@media (max-width: 1025px) {
+  .form_display_check {
+    max-width: 660px;
+  }
+}
+@media (max-width: 706px) {
+  .form_display_check {
+    width: 327px;
+  }
+}
+@media (max-width: 320px) {
+  .form_display_check {
+    width: 267px;
+    margin: 24px 24px 0;
+  }
+}
+.form_display_check_click {
+  height: 24px;
+}
+.form_display_check_click .checkbox {
+  width: 24px;
+  height: 24px;
+}
+.form_display_check_text {
+  padding-left: 8px;
+  font-size: 14px;
+}
+.form_display_check_text_p {
+  font-size: 16px;
+}
+@media (max-width: 1025px) {
+  .form_display_check_text_p {
+    width: 100%;
+    text-align: initial;
+    font-size: 14px;
+  }
+}
+.form_sign {
+  margin-top: 16px;
+  color: var(--theme-black, #221817);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  width: 183px;
+  height: 72px;
+  text-transform: uppercase;
+  background: #FCCF2A;
+  font-size: 16px;
+  box-shadow: 0px 8px 32px rgba(252, 207, 42, 0.24);
+  border-radius: 0px 24px;
+  border: none;
+  display: inline-flex;
+  padding: 24px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+@media (max-width: 1025px) {
+  .form_sign {
+    width: 327px;
+    margin: 0 24px;
+  }
+}
+@media (max-width: 425px) {
+  .form_sign {
+    width: 264px;
+  }
+}
+.form_sign img {
+  margin-left: 8px;
+}
+
+.footer_section {
+  padding-top: 136px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1224px;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 56px;
+}
+@media (max-width: 1025px) {
+  .footer_section {
+    display: block;
+    max-width: 230px;
+    text-align: center;
+    margin-top: 104px;
+  }
+}
+@media (max-width: 1025px) {
+  .footer_section_left {
+    margin-bottom: -140px;
+  }
+}
+.footer_section_left p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--background-white, #FFF);
+}
+.footer_section .menu {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+@media (max-width: 1025px) {
+  .footer_section .menu {
+    margin-top: 72px;
+    padding: 0;
+  }
+}
+.footer_section .menu li a {
+  color: #FFF;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}/*# sourceMappingURL=footer.css.map */

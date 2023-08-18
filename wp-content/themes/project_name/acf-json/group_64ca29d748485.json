@@ -1,31 +1,11 @@
 {
-    "key": "group_62974ef70303b",
-    "title": "Hero block",
+    "key": "group_64ca29d748485",
+    "title": "How It Works",
     "fields": [
         {
-            "key": "field_62974f09e7408",
-            "label": "Title",
-            "name": "title",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "aria-label": "",
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_64ca1e5584d19",
-            "label": "Title",
-            "name": "title_two",
+            "key": "field_64ca29e75e969",
+            "label": "title section",
+            "name": "title_section",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -42,29 +22,9 @@
             "maxlength": ""
         },
         {
-            "key": "field_62974f0fe7409",
-            "label": "Description",
-            "name": "description",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "aria-label": "",
-            "default_value": "",
-            "placeholder": "",
-            "maxlength": "",
-            "rows": "",
-            "new_lines": ""
-        },
-        {
-            "key": "field_62974f1ee740a",
-            "label": "Button text",
-            "name": "button_text",
+            "key": "field_64ca2a1a5e96a",
+            "label": "main title",
+            "name": "main_title",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -74,7 +34,6 @@
                 "class": "",
                 "id": ""
             },
-            "aria-label": "",
             "default_value": "",
             "placeholder": "",
             "prepend": "",
@@ -82,9 +41,28 @@
             "maxlength": ""
         },
         {
-            "key": "field_62974f31e740b",
-            "label": "Button link",
-            "name": "button_link",
+            "key": "field_64ca2a3f5e96b",
+            "label": "main title two",
+            "name": "main_title_two",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_64ca2a535e96c",
+            "label": "list img",
+            "name": "list_img",
             "type": "url",
             "instructions": "",
             "required": 0,
@@ -94,64 +72,13 @@
                 "class": "",
                 "id": ""
             },
-            "aria-label": "",
             "default_value": "",
             "placeholder": ""
         },
         {
-            "key": "field_62974f41e740c",
-            "label": "Background image",
-            "name": "background_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "aria-label": "",
-            "return_format": "id",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_629757e0f99a5",
-            "label": "Background mobile image",
-            "name": "background_mobile_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "aria-label": "",
-            "return_format": "array",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_64d0c99482fb6",
-            "label": "three blocks",
-            "name": "three_blocks",
+            "key": "field_64ca3e95c2b51",
+            "label": "blocks",
+            "name": "blocks",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -168,7 +95,7 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_64d0cb1982fb7",
+                    "key": "field_64ca429bc2b52",
                     "label": "icon",
                     "name": "icon",
                     "type": "url",
@@ -184,9 +111,28 @@
                     "placeholder": ""
                 },
                 {
-                    "key": "field_64d0cb3382fb8",
-                    "label": "title",
-                    "name": "title",
+                    "key": "field_64ca42fac2b53",
+                    "label": "title block",
+                    "name": "title_block",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_64ca4324c2b55",
+                    "label": "description block",
+                    "name": "description_block",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -203,6 +149,41 @@
                     "maxlength": ""
                 }
             ]
+        },
+        {
+            "key": "field_64ca52c0da338",
+            "label": "sign how",
+            "name": "sign_how",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_64ca53173fb4c",
+            "label": "sign img",
+            "name": "sign_img",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
         }
     ],
     "location": [
@@ -210,7 +191,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/hero"
+                "value": "acf\/howitworks"
             }
         ]
     ],
@@ -223,5 +204,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1691406139
+    "modified": 1690985420
 }

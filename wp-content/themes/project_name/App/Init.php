@@ -1,12 +1,8 @@
 <?php
-
-
 /**
  * Init theme class
  */
-
 namespace App;
-
 
 final class init {
 	/**
@@ -26,7 +22,6 @@ final class init {
             CustomPostType\RegisterCustomPostType::class,
 		);
 	}
-
 	/**
 	 * Loop through the classes, initialize them,
 	 * and call the register() method if it exists
