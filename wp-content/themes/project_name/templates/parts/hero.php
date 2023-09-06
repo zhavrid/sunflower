@@ -4,6 +4,7 @@ $title_two = get_field('title_two');
 $description = get_field('description');
 $button_text = get_field('button_text');
 $button_link = get_field('button_link');
+$button_svg = get_field('button_svg');
 $three_blocks = get_field('three_blocks');
 ?>
 
@@ -22,6 +23,9 @@ $three_blocks = get_field('three_blocks');
                 <?php endif ?>
                 <?php if($button_text):  ?>
                     <button class="hero_left_sign_up"><?php echo $button_text?>
+                <?php endif ?>
+                <?php if($button_svg):  ?>
+                    <?php echo $button_svg?>
                 <?php endif ?>
                 <?php if($button_link):  ?>
                     <?php echo $button_link?>

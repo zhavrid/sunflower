@@ -82,6 +82,22 @@
             "maxlength": ""
         },
         {
+            "key": "field_64ec9ab8f9d9a",
+            "label": "Button svg",
+            "name": "button_svg",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
             "key": "field_62974f31e740b",
             "label": "Button link",
             "name": "button_link",
@@ -223,5 +239,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1691406139
+    "modified": 1693227876
 }
